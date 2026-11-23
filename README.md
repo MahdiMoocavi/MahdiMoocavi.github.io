@@ -2,18 +2,23 @@
 
 A responsive personal portfolio built with plain HTML and CSS. No JavaScript framework or build step is required.
 
-## GitHub Pages
-
-This repository is configured for the user site at:
+## Live website
 
 https://mahdimoocavi.github.io
 
-To publish it, open **Settings → Pages**, choose **Deploy from a branch**, select **main** and **/(root)**, and save. GitHub Pages will publish the root-level index.html.
+The site is published through GitHub Pages from the root of the `main` branch.
 
 ## Site files
 
-- index.html — portfolio content and project links
-- styles.css — responsive layout and visual styles
-- assets/mark.svg — favicon
+- `index.html` — portfolio content, project summaries, and selected research figures
+- `styles.css` — responsive layout and visual styles
+- `assets/mark.svg` — favicon
 
-The diagrams currently shown on the site are conceptual illustrations, not empirical results. They can be replaced with approved project figures as those are selected.
+## Project figure assets
+
+The website embeds the original PNGs directly from their respective project repositories. The files remain in those repositories and are not modified or duplicated here:
+
+- Decision-making figures: [Sequential-Generalized-Linear-Model](https://github.com/MahdiMoocavi/Sequential-Generalized-Linear-Model)
+- Animacy meta-analysis figures: [Meta-Analysis-Animacy](https://github.com/MahdiMoocavi/Meta-Analysis-Animacy)
+
+The abstract SVG diagrams in project cards are conceptual illustrations; the images in the selected-figures section are the uploaded project figures.
