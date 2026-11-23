@@ -10,7 +10,7 @@
   <meta property="og:title" content="Mahdi Moosavi — Data Analysis & Quantitative Methods">
   <meta property="og:description" content="Data analysis, statistical modelling, Python and R workflows, and evidence synthesis.">
   <meta property="og:url" content="https://mahdimoocavi.github.io/">
-  <title>Mahdi Moosavi — Data Analysis & Quantitative Methods & Computational Methods</title>
+  <title>Mahdi Moosavi — Data Analysis & Quantitative Methods</title>
   <link rel="icon" href="assets/mark.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,7 +24,7 @@
       <span class="identity-name">MAHDI MOOSAVI</span>
     </a>
     <nav aria-label="Main navigation">
-      <a href="#research">Research</a>
+      <a href="#research">Workflow</a>
       <a href="#projects">Projects</a>
       <a href="#figures">Figures</a>
       <a href="#about">About</a>
@@ -102,38 +102,38 @@
     <section class="research-lead section-shell" id="research">
       <div class="lead-heading">
         <div>
-          <p class="eyebrow"><span class="eyebrow-dot"></span> ONGOING METHODS PROJECT / 01</p>
-          <h2>An exploratory project in semantic data representation</h2>
+          <p class="eyebrow"><span class="eyebrow-dot"></span> FEATURED DATA WORKFLOW / 01</p>
+          <h2>A Python workflow for preparing research datasets</h2>
         </div>
-        <span class="lead-side-label">INDEPENDENT METHODS PROJECT</span>
+        <span class="lead-side-label">PYTHON DATA PROCESSING</span>
       </div>
       <div class="lead-grid">
         <div class="lead-copy">
-          <p class="lead-deck">Geometric correction of questionnaire-item embeddings</p>
-          <p>This ongoing Python project examines how sentence-transformer models represent questionnaire items and whether geometric transformations can reduce shared linguistic structure in the resulting vectors. It is an exploratory methods project; its current results are embedding-based, and validation against actual response data remains future work.</p>
-          <p>The IPIP-NEO-300 item pool is used to compare global, domain-informed, facet-informed, and scope-matched transformations. The project is presented here as ongoing technical exploration, not as a completed applied analytics deliverable.</p>
+          <p class="lead-deck">Excel preprocessing, feature construction, and audit trails</p>
+          <p>This Python pipeline transforms study-specific Excel exports into analysis-ready workbooks. It handles participant filtering, variable harmonisation, derived measures, and open-text preprocessing, while preserving an audit trail so suggested text corrections can be reviewed rather than silently accepted.</p>
+          <p>The workflow is designed for a defined replication-data schema rather than as a general-purpose ingestion tool. Its filtering thresholds, recoding rules, and scoring transformations are documented so the assumptions behind each processed dataset remain inspectable.</p>
           <div class="lead-actions">
-            <a class="primary-link dark-link" href="https://github.com/MahdiMoocavi/Geometric-Embedding-Correction" target="_blank" rel="noreferrer">Explore exploratory code <span>↗</span></a>
-            <a class="secondary-link" href="https://github.com/MahdiMoocavi/Geometric-Embedding-Correction/blob/main/geometric-correction-methodology.md" target="_blank" rel="noreferrer">Read methodology ↗</a>
+            <a class="primary-link dark-link" href="https://github.com/MahdiMoocavi/Replication-Processing-Pipeline" target="_blank" rel="noreferrer">Open pipeline repository <span>↗</span></a>
+            <a class="secondary-link" href="https://github.com/MahdiMoocavi/Replication-Processing-Pipeline#workflow" target="_blank" rel="noreferrer">Read workflow documentation ↗</a>
           </div>
         </div>
         <div class="lead-method">
-          <p class="method-label">PROJECT WORKFLOW</p>
+          <p class="method-label">PROCESSING WORKFLOW</p>
           <ol class="method-flow">
-            <li><span>01</span><div><b>Encode item wording</b><small>300 IPIP-NEO-300 statements · all-mpnet-base-v2</small></div></li>
-            <li><span>02</span><div><b>Transform embedding geometry</b><small>Four content-blind and four content-aware conditions</small></div></li>
-            <li><span>03</span><div><b>Evaluate item-pair structure</b><small>696 reverse-keyed pairs + 654 same-keyed controls</small></div></li>
-            <li class="future-step"><span>04</span><div><b>Validate against responses</b><small>Empirical item correlations · next stage</small></div></li>
+            <li><span>01</span><div><b>Read Excel exports</b><small>Study-specific group workbooks · XLSX input</small></div></li>
+            <li><span>02</span><div><b>Filter participants</b><small>Completion, progress, and age-related criteria</small></div></li>
+            <li><span>03</span><div><b>Harmonise and derive measures</b><small>Variable recoding, response summaries, and scores</small></div></li>
+            <li class="future-step"><span>04</span><div><b>Retain an audit trail</b><small>Original, flagged, and corrected open-text fields</small></div></li>
           </ol>
         </div>
       </div>
       <div class="lead-metrics">
-        <div class="metric"><strong>300</strong><span>PERSONALITY ITEMS</span></div>
-        <div class="metric"><strong>768</strong><span>EMBEDDING DIMENSIONS</span></div>
-        <div class="metric"><strong>8</strong><span>CORRECTION CONDITIONS</span></div>
-        <div class="metric result-metric"><strong>90.5%</strong><span>EXPLORATORY SIGN-ACCURACY*</span></div>
+        <div class="metric"><strong>5</strong><span>PROCESSING STAGES</span></div>
+        <div class="metric"><strong>XLSX</strong><span>EXCEL INPUT & OUTPUT</span></div>
+        <div class="metric"><strong>PYTHON</strong><span>PANDAS · NUMPY · OPENPYXL</span></div>
+        <div class="metric result-metric"><strong>AUDIT</strong><span>OPEN-TEXT CORRECTIONS</span></div>
       </div>
-      <p class="metric-note">*Reported for the nested full-rescale condition on the predefined 696-pair set, using a theoretical negative-sign expectation. This is an embedding-only result, not yet validation against real response correlations. The nested matrix's positive semidefiniteness is also not yet established.</p>
+      <p class="metric-note">The pipeline retains original, flagged, and corrected text in separate audit columns. Dictionary-based spelling suggestions are not ground truth; flagged entries should be reviewed before corrected values are used in substantive analyses.</p>
     </section>
 
     <section class="projects section-shell" id="projects">
