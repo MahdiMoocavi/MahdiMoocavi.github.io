@@ -3,267 +3,290 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Mahdi Moosavi — quantitative and computational approaches to human behaviour, psychometrics, and data science.">
-  <meta name="theme-color" content="#f4f3ee">
+  <meta name="description" content="Mahdi Moosavi — quantitative psychology, computational psychometrics, behavioural modelling, and NLP.">
+  <meta name="theme-color" content="#f2f0e8">
   <link rel="canonical" href="https://mahdimoocavi.github.io/">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Mahdi Moosavi — Research & Data">
-  <meta property="og:description" content="Quantitative and computational approaches to human behaviour, psychometrics, statistical modelling, and data science.">
+  <meta property="og:title" content="Mahdi Moosavi — Quantitative Psychology">
+  <meta property="og:description" content="Research at the intersection of psychological measurement, behavioural data, statistical modelling, and language.">
   <meta property="og:url" content="https://mahdimoocavi.github.io/">
-  <title>Mahdi Moosavi — Research & Data</title>
+  <title>Mahdi Moosavi — Quantitative Psychology & Computational Methods</title>
   <link rel="icon" href="assets/mark.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="topbar">
-    <a class="wordmark" href="#top">MM<span>.</span></a>
+  <header class="site-header">
+    <a class="identity" href="#top" aria-label="Mahdi Moosavi, home">
+      <span class="identity-mark">MM</span>
+      <span class="identity-name">MAHDI MOOSAVI</span>
+    </a>
     <nav aria-label="Main navigation">
-      <a href="#work">Selected work</a>
+      <a href="#research">Research</a>
+      <a href="#projects">Projects</a>
       <a href="#figures">Figures</a>
-      <a href="#approach">Approach</a>
-      <a href="#contact">Contact</a>
+      <a href="#about">About</a>
     </nav>
-    <a class="top-link" href="https://github.com/MahdiMoocavi" target="_blank" rel="noreferrer">GitHub ↗</a>
+    <a class="header-link" href="https://github.com/MahdiMoocavi" target="_blank" rel="noreferrer">GITHUB <span>↗</span></a>
   </header>
 
   <main id="top">
     <section class="hero">
-      <div class="hero-copy">
-        <p class="eyebrow">QUANTITATIVE RESEARCH · COMPUTATIONAL METHODS</p>
-        <h1>Understanding<br>people through<br><em>data and models.</em></h1>
-        <p class="intro">I'm Mahdi Moosavi. My work combines behavioural research, statistical modelling, and computational methods to study how human behaviour and psychological constructs can be measured and understood.</p>
-        <div class="hero-actions">
-          <a class="button button-dark" href="#work">Explore selected work <span>↓</span></a>
-          <a class="text-link" href="https://github.com/MahdiMoocavi" target="_blank" rel="noreferrer">Contact via GitHub ↗</a>
+      <div class="hero-main">
+        <p class="eyebrow"><span class="eyebrow-dot"></span> QUANTITATIVE PSYCHOLOGY / COMPUTATIONAL METHODS</p>
+        <h1>Psychological measurement is a <em>computational</em> problem.</h1>
+        <p class="hero-intro">I study how language and behaviour encode psychological structure — combining experimental psychology, statistical modelling, and natural language processing to develop better ways of representing human constructs.</p>
+        <div class="hero-links">
+          <a class="primary-link" href="#research">Explore current research <span>↓</span></a>
+          <a class="secondary-link" href="https://github.com/MahdiMoocavi" target="_blank" rel="noreferrer">View GitHub profile ↗</a>
+        </div>
+        <div class="hero-index">
+          <span>INDEPENDENT RESEARCH PORTFOLIO</span>
+          <span>2026 — ONGOING</span>
         </div>
       </div>
-      <div class="hero-art" aria-label="Abstract network illustration">
-        <svg viewBox="0 0 520 500" role="img" aria-labelledby="art-title">
-          <title id="art-title">An abstract network of connected observations</title>
+
+      <aside class="hero-visual" aria-label="Conceptual illustration of item embeddings and psychological structure">
+        <div class="visual-topline"><span>FIG. 00 / CONCEPT</span><span>ITEM TEXT → VECTOR SPACE</span></div>
+        <svg viewBox="0 0 620 470" role="img" aria-labelledby="space-title space-desc">
+          <title id="space-title">Conceptual map of semantic representations</title>
+          <desc id="space-desc">A schematic point cloud showing groups of item representations, with a highlighted pair and transformation arrow. This is an explanatory illustration, not an empirical output.</desc>
           <defs>
-            <pattern id="dots" width="18" height="18" patternUnits="userSpaceOnUse">
-              <circle cx="1.5" cy="1.5" r="1" fill="#b9b6aa"/>
+            <pattern id="microgrid" width="24" height="24" patternUnits="userSpaceOnUse">
+              <path d="M24 0H0V24" fill="none" stroke="#d7d4c9" stroke-width=".7"/>
             </pattern>
+            <marker id="arrowhead" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+              <path d="M0 0L6 3L0 6" fill="none" stroke="#d46a4d" stroke-width="1.2"/>
+            </marker>
           </defs>
-          <rect x="18" y="18" width="484" height="464" rx="5" fill="url(#dots)" opacity=".55"/>
-          <path class="line" d="M86 345 L165 260 L245 305 L322 176 L425 220 M165 260 L180 115 L322 176 M245 305 L280 410 L425 220 M322 176 L405 78 M86 345 L115 430"/>
-          <path class="line faint" d="M180 115 L405 78 L425 220 L280 410 L115 430"/>
-          <circle class="node" cx="86" cy="345" r="8"/><circle class="node" cx="165" cy="260" r="12"/>
-          <circle class="node accent" cx="245" cy="305" r="18"/><circle class="node" cx="322" cy="176" r="10"/>
-          <circle class="node accent" cx="425" cy="220" r="14"/><circle class="node" cx="180" cy="115" r="7"/>
-          <circle class="node" cx="405" cy="78" r="6"/><circle class="node" cx="280" cy="410" r="8"/>
-          <circle class="node" cx="115" cy="430" r="5"/>
-          <text x="262" y="270" class="art-label">OBSERVATIONS</text>
-          <text x="262" y="290" class="art-small">patterns · structure · inference</text>
+          <rect x="16" y="15" width="588" height="420" fill="url(#microgrid)" opacity=".75"/>
+          <path d="M63 377H560M63 377V62" class="plot-axis"/>
+          <text x="565" y="394" class="plot-label">DIM 01</text>
+          <text x="39" y="68" class="plot-label" transform="rotate(-90 39 68)">DIM 02</text>
+          <ellipse cx="212" cy="230" rx="112" ry="80" class="cluster cluster-a"/>
+          <ellipse cx="426" cy="164" rx="101" ry="71" class="cluster cluster-b"/>
+          <ellipse cx="400" cy="322" rx="96" ry="55" class="cluster cluster-c"/>
+          <g class="points-a">
+            <circle cx="135" cy="222" r="4"/><circle cx="161" cy="184" r="4"/><circle cx="182" cy="258" r="4"/>
+            <circle cx="201" cy="209" r="4"/><circle cx="218" cy="284" r="4"/><circle cx="238" cy="235" r="4"/>
+            <circle cx="254" cy="185" r="4"/><circle cx="278" cy="250" r="4"/><circle cx="294" cy="214" r="4"/>
+            <circle cx="190" cy="160" r="4"/><circle cx="225" cy="164" r="4"/><circle cx="270" cy="296" r="4"/>
+          </g>
+          <g class="points-b">
+            <circle cx="355" cy="161" r="4"/><circle cx="378" cy="118" r="4"/><circle cx="400" cy="193" r="4"/>
+            <circle cx="420" cy="145" r="4"/><circle cx="438" cy="202" r="4"/><circle cx="458" cy="136" r="4"/>
+            <circle cx="481" cy="173" r="4"/><circle cx="503" cy="145" r="4"/><circle cx="407" cy="98" r="4"/>
+          </g>
+          <g class="points-c">
+            <circle cx="330" cy="327" r="4"/><circle cx="357" cy="294" r="4"/><circle cx="380" cy="343" r="4"/>
+            <circle cx="404" cy="315" r="4"/><circle cx="426" cy="356" r="4"/><circle cx="452" cy="303" r="4"/>
+            <circle cx="478" cy="337" r="4"/><circle cx="493" cy="309" r="4"/>
+          </g>
+          <path d="M297 184C321 159 334 145 352 137" class="semantic-link"/>
+          <path d="M299 256C327 276 347 288 369 302" class="semantic-link"/>
+          <path d="M318 211C347 222 365 233 392 248" class="correction-path" marker-end="url(#arrowhead)"/>
+          <circle cx="298" cy="184" r="9" class="focus-node"/><circle cx="352" cy="137" r="9" class="focus-node"/>
+          <path d="M298 184L352 137" class="pair-line"/>
+          <rect x="76" y="85" width="112" height="30" rx="2" class="plot-tag"/>
+          <text x="89" y="104" class="plot-tag-text">ITEM TEXT</text>
+          <rect x="412" y="57" width="149" height="30" rx="2" class="plot-tag"/>
+          <text x="426" y="76" class="plot-tag-text">SEMANTIC SPACE</text>
+          <text x="74" y="410" class="plot-note">SCHEMATIC ONLY — NOT EMPIRICAL DATA</text>
         </svg>
-        <p class="art-caption">Behavioural data, represented as systems of relationships.</p>
-      </div>
-      <div class="hero-index"><span>01 / 03</span><span>RESEARCH PORTFOLIO</span></div>
+        <div class="visual-bottom"><span>REPRESENTATION</span><span>STRUCTURE</span><span>INFERENCE</span></div>
+      </aside>
     </section>
 
-    <section class="work section" id="work">
-      <div class="section-head">
+    <section class="research-lead section-shell" id="research">
+      <div class="lead-heading">
         <div>
-          <p class="eyebrow">SELECTED PROJECTS</p>
-          <h2>Research, from experiment<br>to statistical inference.</h2>
+          <p class="eyebrow"><span class="eyebrow-dot"></span> CURRENT RESEARCH / 01</p>
+          <h2>Can sentence embeddings recover psychometric structure?</h2>
         </div>
-        <p class="section-note">A selection of experimental, analytical, and data-processing work. Each project links to its source code and documentation.</p>
+        <span class="lead-side-label">COMPUTATIONAL PSYCHOMETRICS</span>
       </div>
-
-      <article class="feature-card">
-        <div class="feature-visual decision-visual">
-          <div class="visual-kicker">01 / DECISION SCIENCE</div>
-          <svg viewBox="0 0 600 300" aria-hidden="true">
-            <g class="stim-dots">
-              <circle cx="112" cy="110" r="5"/><circle cx="154" cy="83" r="5"/><circle cx="185" cy="132" r="5"/>
-              <circle cx="215" cy="92" r="5"/><circle cx="248" cy="143" r="5"/><circle cx="280" cy="103" r="5"/>
-              <circle cx="320" cy="128" r="5"/><circle cx="352" cy="85" r="5"/><circle cx="390" cy="119" r="5"/>
-              <circle cx="426" cy="91" r="5"/><circle cx="463" cy="135" r="5"/>
-            </g>
-            <path d="M70 205 H520" class="axis"/>
-            <path d="M300 192 V218" class="axis"/>
-            <path d="M300 205 C340 205 355 165 392 165" class="curve"/>
-            <path d="M300 205 C260 205 245 245 208 245" class="curve alt"/>
-            <circle cx="392" cy="165" r="8" class="point"/><circle cx="208" cy="245" r="8" class="point alt-point"/>
-            <text x="70" y="250">INITIAL CHOICE</text><text x="392" y="145">POST-DECISION EVIDENCE</text>
-          </svg>
-          <div class="visual-footer"><span>EXPERIMENTAL DESIGN</span><span>PSYCHOPY · PYTHON</span></div>
-        </div>
-        <div class="feature-content">
-          <p class="eyebrow">FLAGSHIP · EXPERIMENT + MODELLING</p>
-          <h3>Perceptual decision-making<br>and confidence</h3>
-          <p>A PsychoPy experiment manipulating evidence after an initial choice, paired with mixed-effects analyses of confidence and sequential decision behaviour.</p>
-          <div class="tags"><span>Experimental design</span><span>Python</span><span>Mixed-effects models</span><span>R</span></div>
-          <div class="project-links">
-            <a href="https://github.com/MahdiMoocavi/Beehive-Paradigm" target="_blank" rel="noreferrer">Experiment repository ↗</a>
-            <a href="https://github.com/MahdiMoocavi/Sequential-Generalized-Linear-Model" target="_blank" rel="noreferrer">Analysis repository ↗</a>
+      <div class="lead-grid">
+        <div class="lead-copy">
+          <p class="lead-deck">Geometric correction of personality-item embeddings</p>
+          <p>Sentence-transformer models turn questionnaire items into vectors. But do those vectors preserve the relationships that a psychometric instrument is designed to measure? This project investigates how shared linguistic structure distorts item-to-item similarity — particularly for reverse-keyed items — and compares geometric ways to correct it.</p>
+          <p>The IPIP-NEO-300 item pool is used to compare global, domain-informed, facet-informed, and scope-matched transformations before moving to response-based validation.</p>
+          <div class="lead-actions">
+            <a class="primary-link dark-link" href="https://github.com/MahdiMoocavi/Geometric-Embedding-Correction" target="_blank" rel="noreferrer">Explore code repository <span>↗</span></a>
+            <a class="secondary-link" href="https://github.com/MahdiMoocavi/Geometric-Embedding-Correction/blob/main/geometric-correction-methodology.md" target="_blank" rel="noreferrer">Read methodology ↗</a>
           </div>
         </div>
-      </article>
-
-      <div class="project-grid">
-        <article class="project-card">
-          <div class="card-visual memory-visual">
-            <span class="visual-kicker">02 / MEMORY RESEARCH</span>
-            <div class="forest">
-              <div class="forest-row"><i></i><b></b><i></i></div>
-              <div class="forest-row"><i></i><b></b><i></i></div>
-              <div class="forest-row"><i></i><b></b><i></i></div>
-              <div class="forest-row"><i></i><b></b><i></i></div>
-              <div class="forest-row"><i></i><b></b><i></i></div>
-              <div class="forest-mid"></div>
-            </div>
-            <span class="visual-footer">META-ANALYSIS · DATA PIPELINES</span>
-          </div>
-          <div class="card-body">
-            <p class="eyebrow">META-ANALYSIS & DATA PROCESSING</p>
-            <h3>Animacy, imagery, and memory</h3>
-            <p>Replication-data preprocessing and meta-analytic work on animacy, interactive imagery, and memory outcomes across English- and Dutch-language groups.</p>
-            <div class="tags"><span>R</span><span>Python</span><span>metafor</span><span>NLP preprocessing</span></div>
-            <div class="project-links">
-              <a href="https://github.com/MahdiMoocavi/Meta-Analysis-Animacy" target="_blank" rel="noreferrer">Meta-analysis ↗</a>
-              <a href="https://github.com/MahdiMoocavi/Replication-Processing-Pipeline" target="_blank" rel="noreferrer">Processing pipeline ↗</a>
-            </div>
-          </div>
-        </article>
-
-        <article class="project-card">
-          <div class="card-visual latent-visual">
-            <span class="visual-kicker">03 / LATENT STRUCTURE</span>
-            <svg viewBox="0 0 520 230" aria-hidden="true">
-              <g class="sem-lines">
-                <path d="M260 40 L105 112 L260 190 L415 112 Z M105 112 L260 115 L415 112 M260 40 L260 190"/>
-              </g>
-              <g class="sem-nodes">
-                <circle cx="260" cy="40" r="23"/><circle cx="105" cy="112" r="19"/><circle cx="415" cy="112" r="19"/><circle cx="260" cy="190" r="23"/><circle cx="260" cy="115" r="12"/>
-              </g>
-              <text x="260" y="45" text-anchor="middle">η1</text><text x="105" y="117" text-anchor="middle">x</text><text x="415" y="117" text-anchor="middle">y</text><text x="260" y="195" text-anchor="middle">η2</text>
-            </svg>
-            <span class="visual-footer">CFA · SEM · FACTORIAL ANALYSIS</span>
-          </div>
-          <div class="card-body">
-            <p class="eyebrow">STATISTICAL MODELLING</p>
-            <h3>Latent-variable and factorial models</h3>
-            <p>Applied analyses using confirmatory factor analysis, structural equation models, mediation, model comparison, and factorial ANOVA.</p>
-            <div class="tags"><span>R</span><span>lavaan</span><span>CFA / SEM</span><span>ANOVA</span></div>
-            <div class="project-links">
-              <a href="https://github.com/MahdiMoocavi/Structural-Equation-Model" target="_blank" rel="noreferrer">SEM project ↗</a>
-              <a href="https://github.com/MahdiMoocavi/Factorial-Analysis-phq9" target="_blank" rel="noreferrer">Factorial analysis ↗</a>
-            </div>
-          </div>
-        </article>
-
-        <article class="project-card embedding-card">
-          <div class="card-visual embedding-visual">
-            <span class="visual-kicker">04 / COMPUTATIONAL PSYCHOMETRICS</span>
-            <svg viewBox="0 0 600 230" aria-hidden="true">
-              <g class="embedding-axes"><path d="M75 175 L510 175 M110 205 L110 35 M110 175 L360 55 M110 175 L480 90"/></g>
-              <g class="embedding-cloud cloud-a"><circle cx="180" cy="130" r="5"/><circle cx="205" cy="115" r="5"/><circle cx="224" cy="140" r="5"/><circle cx="245" cy="105" r="5"/><circle cx="265" cy="130" r="5"/><circle cx="285" cy="112" r="5"/><circle cx="302" cy="150" r="5"/><circle cx="325" cy="120" r="5"/></g>
-              <g class="embedding-cloud cloud-b"><circle cx="365" cy="92" r="5"/><circle cx="390" cy="75" r="5"/><circle cx="415" cy="105" r="5"/><circle cx="440" cy="79" r="5"/><circle cx="465" cy="112" r="5"/></g>
-              <path class="embedding-correction" d="M185 145 Q300 210 425 135"/>
-              <circle class="embedding-focus" cx="305" cy="150" r="12"/>
-              <text x="120" y="24">ITEM EMBEDDINGS</text><text x="380" y="203">CORRECTED GEOMETRY</text>
-            </svg>
-            <span class="visual-footer">SENTENCE EMBEDDINGS · ITEM-LEVEL SEMANTICS</span>
-          </div>
-          <div class="card-body">
-            <p class="eyebrow">GEOMETRIC METHODS FOR PSYCHOMETRIC ITEMS</p>
-            <h3>Semantic geometry and psychometric structure</h3>
-            <p>Compares eight geometric corrections to sentence-transformer embeddings of 300 IPIP-NEO items, from global centering and whitening to domain/facet-informed and scope-matched methods.</p>
-            <div class="metric-callout"><strong>90.5%</strong><span>reported negative-sign recovery for the nested full-rescale condition on 696 predefined reverse-keyed pairs. This is an embedding-only result; response-based validation is pending.</span></div>
-            <div class="tags"><span>Python</span><span>Sentence embeddings</span><span>Psychometrics</span><span>Geometric correction</span></div>
-            <div class="project-links">
-              <a href="https://github.com/MahdiMoocavi/Geometric-Correction-Methods-for-Sentence-Embeddings" target="_blank" rel="noreferrer">Project repository ↗</a>
-              <a href="https://github.com/MahdiMoocavi/Geometric-Correction-Methods-for-Sentence-Embeddings/blob/main/geometric-correction-methodology.md" target="_blank" rel="noreferrer">Methodology ↗</a>
-            </div>
-          </div>
-        </article>
+        <div class="lead-method">
+          <p class="method-label">ANALYTICAL SEQUENCE</p>
+          <ol class="method-flow">
+            <li><span>01</span><div><b>Encode item wording</b><small>300 IPIP-NEO-300 statements · all-mpnet-base-v2</small></div></li>
+            <li><span>02</span><div><b>Transform embedding geometry</b><small>Four content-blind and four content-aware conditions</small></div></li>
+            <li><span>03</span><div><b>Evaluate item-pair structure</b><small>696 reverse-keyed pairs + 654 same-keyed controls</small></div></li>
+            <li class="future-step"><span>04</span><div><b>Validate against responses</b><small>Empirical item correlations · next stage</small></div></li>
+          </ol>
+        </div>
       </div>
-
-      <article class="compact-project">
-        <div class="compact-number">05</div>
-        <div><p class="eyebrow">EXPERIMENTAL SOFTWARE · PYTHON / PSYCHOPY</p><h3>Numerical magnitude comparison task</h3><p>A compact two-choice numerical judgment experiment with counterbalanced stimulus positions, response-time measurement, and trial-level data export.</p></div>
-        <a href="https://github.com/MahdiMoocavi/Numerical-Magnitude-Task" target="_blank" rel="noreferrer">View repository ↗</a>
-      </article>
-
-      <section class="figure-section" id="figures" aria-labelledby="figures-title">
-        <div class="section-head">
-          <div>
-            <p class="eyebrow">SELECTED ANALYSIS FIGURES</p>
-            <h2 id="figures-title">From individual behaviour<br>to patterns across studies.</h2>
-          </div>
-          <p class="section-note">Original project PNGs, shown unchanged. Open any figure to inspect it at full resolution.</p>
-        </div>
-
-        <div class="figure-group">
-          <div class="figure-group-head">
-            <p class="eyebrow">01 / PERCEPTUAL DECISION-MAKING</p>
-            <h3>Confidence and post-decisional evidence</h3>
-            <a href="https://github.com/MahdiMoocavi/Sequential-Generalized-Linear-Model" target="_blank" rel="noreferrer">Analysis repository ↗</a>
-          </div>
-          <div class="figure-grid">
-            <figure class="research-figure">
-              <a href="https://raw.githubusercontent.com/MahdiMoocavi/Sequential-Generalized-Linear-Model/main/103443.png" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/MahdiMoocavi/Sequential-Generalized-Linear-Model/main/103443.png" alt="Uploaded analysis image containing Figures 5 and 6: confidence grouped by experimental condition and accuracy, and confidence in correct and incorrect response trials" loading="lazy"></a>
-              <figcaption><b>Figures 5–6.</b> Confidence patterns by evidence condition and response accuracy.</figcaption>
-            </figure>
-            <figure class="research-figure">
-              <a href="https://raw.githubusercontent.com/MahdiMoocavi/Sequential-Generalized-Linear-Model/main/103534.png" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/MahdiMoocavi/Sequential-Generalized-Linear-Model/main/103534.png" alt="Uploaded analysis image containing Figures 10 and 11: confidence against absolute evidence, accuracy and reaction time, and fitted model predictions" loading="lazy"></a>
-              <figcaption><b>Figures 10–11.</b> Behavioural relationships and fitted-model predictions, including psychometric functions.</figcaption>
-            </figure>
-          </div>
-        </div>
-
-        <div class="figure-group">
-          <div class="figure-group-head">
-            <p class="eyebrow">02 / ANIMACY AND MEMORY</p>
-            <h3>Study distributions and meta-analytic patterns</h3>
-            <a href="https://github.com/MahdiMoocavi/Meta-Analysis-Animacy" target="_blank" rel="noreferrer">Meta-analysis repository ↗</a>
-          </div>
-          <div class="figure-grid">
-            <figure class="research-figure">
-              <a href="https://raw.githubusercontent.com/MahdiMoocavi/Meta-Analysis-Animacy/main/103701.png" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/MahdiMoocavi/Meta-Analysis-Animacy/main/103701.png" alt="Uploaded Figure 1 showing distributions of animate and inanimate stimulus recall frequency and average interaction ratings across studies" loading="lazy"></a>
-              <figcaption><b>Figure 1.</b> Distribution of animate and inanimate stimulus recall frequency and interaction ratings.</figcaption>
-            </figure>
-            <figure class="research-figure">
-              <a href="https://raw.githubusercontent.com/MahdiMoocavi/Meta-Analysis-Animacy/main/103647.png" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/MahdiMoocavi/Meta-Analysis-Animacy/main/103647.png" alt="Uploaded image containing Figure 5 forest and funnel plots and Figure 6 association-effect plots across studies" loading="lazy"></a>
-              <figcaption><b>Figures 5–6.</b> Forest and funnel plots alongside association-effect plots across the 65 study groups.</figcaption>
-            </figure>
-          </div>
-        </div>
-      </section>
+      <div class="lead-metrics">
+        <div class="metric"><strong>300</strong><span>PERSONALITY ITEMS</span></div>
+        <div class="metric"><strong>768</strong><span>EMBEDDING DIMENSIONS</span></div>
+        <div class="metric"><strong>8</strong><span>CORRECTION CONDITIONS</span></div>
+        <div class="metric result-metric"><strong>90.5%</strong><span>REPORTED SIGN-ACCURACY*</span></div>
+      </div>
+      <p class="metric-note">*Reported for the nested full-rescale condition on the predefined 696-pair set, using a theoretical negative-sign expectation. This is an embedding-only result, not yet validation against real response correlations. The nested matrix's positive semidefiniteness is also not yet established.</p>
     </section>
 
-    <section class="approach section" id="approach">
-      <div class="approach-title">
-        <p class="eyebrow">METHODS & INTERESTS</p>
-        <h2>Questions first.<br><em>Methods in service<br>of evidence.</em></h2>
+    <section class="projects section-shell" id="projects">
+      <div class="section-title-row">
+        <div>
+          <p class="eyebrow"><span class="eyebrow-dot"></span> RESEARCH PORTFOLIO / 02—05</p>
+          <h2>Other questions, other methods.</h2>
+        </div>
+        <p class="section-intro">A connected set of empirical projects spanning experimental decision research, memory, data processing, and latent-variable modelling.</p>
       </div>
-      <div class="approach-copy">
-        <p>I approach psychology as a quantitative science. My work combines experimental methods with statistical and computational tools to study patterns in behavioural data.</p>
-        <div class="method-list">
-          <div><span>01</span><b>Research design</b><small>Experimental and behavioural research</small></div>
-          <div><span>02</span><b>Statistical modelling</b><small>Bayesian methods, GLMs, mixed models, SEM</small></div>
-          <div><span>03</span><b>Data science</b><small>Python, R, data processing, reproducible workflows</small></div>
-          <div><span>04</span><b>Computational methods</b><small>NLP, semantic representations, machine learning</small></div>
+
+      <article class="project-row">
+        <div class="project-number">02</div>
+        <div class="project-main">
+          <p class="project-kicker">EXPERIMENTAL PSYCHOLOGY / DECISION-MAKING</p>
+          <h3>What shapes confidence after a decision?</h3>
+          <p>A PsychoPy experiment presents additional evidence after an initial perceptual choice. Its companion R analysis examines confidence, current evidence, and sequential choice behaviour using linear and logistic mixed-effects models.</p>
+          <div class="project-tags"><span>Python / PsychoPy</span><span>R / lme4</span><span>Experimental design</span><span>Mixed-effects models</span></div>
+        </div>
+        <div class="project-outlinks">
+          <a href="https://github.com/MahdiMoocavi/Beehive-Paradigm" target="_blank" rel="noreferrer">Experiment ↗</a>
+          <a href="https://github.com/MahdiMoocavi/Sequential-Generalized-Linear-Model" target="_blank" rel="noreferrer">Analysis ↗</a>
+        </div>
+      </article>
+
+      <article class="project-row">
+        <div class="project-number">03</div>
+        <div class="project-main">
+          <p class="project-kicker">MEMORY / RESEARCH SYNTHESIS</p>
+          <h3>Animacy, interactive imagery, and memory.</h3>
+          <p>Analyses across 65 English- and Dutch-language replication groups examine animacy-related recall, interaction ratings, and item-level associations. A related Python workflow preprocesses English-language replication exports and preserves an audit trail for open-text corrections.</p>
+          <div class="project-tags"><span>R / metafor</span><span>Python / pandas</span><span>Meta-analysis</span><span>Data preprocessing</span></div>
+        </div>
+        <div class="project-outlinks">
+          <a href="https://github.com/MahdiMoocavi/Meta-Analysis-Animacy" target="_blank" rel="noreferrer">Meta-analysis ↗</a>
+          <a href="https://github.com/MahdiMoocavi/Replication-Processing-Pipeline" target="_blank" rel="noreferrer">Data pipeline ↗</a>
+        </div>
+      </article>
+
+      <article class="project-row">
+        <div class="project-number">04</div>
+        <div class="project-main">
+          <p class="project-kicker">LATENT-VARIABLE MODELLING</p>
+          <h3>From observed survey responses to latent constructs.</h3>
+          <p>An applied R project using confirmatory factor analysis, structural equation modelling, mediation, bootstrap estimation, and hold-out comparisons of model fit in survey data on religiosity and attitudes.</p>
+          <div class="project-tags"><span>R</span><span>lavaan</span><span>CFA / SEM</span><span>Mediation</span></div>
+        </div>
+        <div class="project-outlinks">
+          <a href="https://github.com/MahdiMoocavi/Structural-Equation-Model" target="_blank" rel="noreferrer">SEM project ↗</a>
+        </div>
+      </article>
+
+      <article class="project-row">
+        <div class="project-number">05</div>
+        <div class="project-main">
+          <p class="project-kicker">ADDITIONAL EXPERIMENTS & APPLIED ANALYSIS</p>
+          <h3>Small, focused implementations.</h3>
+          <p>Additional work includes a factorial ANOVA of PHQ-9 scores by living conditions and residential area, and a PsychoPy numerical-magnitude task with counterbalanced left–right presentation and trial-level response-time output.</p>
+          <div class="project-tags"><span>R / ANOVA</span><span>Python / PsychoPy</span><span>Reaction time</span></div>
+        </div>
+        <div class="project-outlinks">
+          <a href="https://github.com/MahdiMoocavi/Factorial-Analysis-phq9" target="_blank" rel="noreferrer">PHQ-9 analysis ↗</a>
+          <a href="https://github.com/MahdiMoocavi/Numerical-Magnitude-Task" target="_blank" rel="noreferrer">Magnitude task ↗</a>
+        </div>
+      </article>
+    </section>
+
+    <section class="figures section-shell" id="figures">
+      <div class="section-title-row">
+        <div>
+          <p class="eyebrow"><span class="eyebrow-dot"></span> SELECTED FIGURES</p>
+          <h2>Evidence, not decoration.</h2>
+        </div>
+        <p class="section-intro">Original figure-page PNGs from two projects. Previews are deliberately compact; open an image to view the original at full size.</p>
+      </div>
+
+      <div class="figure-project">
+        <div class="figure-project-heading">
+          <div><span class="figure-index">PROJECT 02</span><h3>Decision-making and confidence</h3></div>
+          <a href="https://github.com/MahdiMoocavi/Sequential-Generalized-Linear-Model" target="_blank" rel="noreferrer">View analysis ↗</a>
+        </div>
+        <div class="figure-grid">
+          <figure class="figure-card">
+            <a class="figure-image" href="https://raw.githubusercontent.com/MahdiMoocavi/Sequential-Generalized-Linear-Model/main/103443.png" target="_blank" rel="noreferrer" aria-label="Open original Figures 5 and 6 image">
+              <img src="https://raw.githubusercontent.com/MahdiMoocavi/Sequential-Generalized-Linear-Model/main/103443.png" alt="Original manuscript image showing Figures 5 and 6: confidence grouped by condition and accuracy." loading="lazy">
+              <span class="image-open">OPEN ORIGINAL ↗</span>
+            </a>
+            <figcaption><b>Figures 5–6.</b> Confidence patterns by evidence condition, accuracy, and response correctness.</figcaption>
+          </figure>
+          <figure class="figure-card">
+            <a class="figure-image" href="https://raw.githubusercontent.com/MahdiMoocavi/Sequential-Generalized-Linear-Model/main/103534.png" target="_blank" rel="noreferrer" aria-label="Open original Figures 10 and 11 image">
+              <img src="https://raw.githubusercontent.com/MahdiMoocavi/Sequential-Generalized-Linear-Model/main/103534.png" alt="Original manuscript image showing Figures 10 and 11: confidence relationships and fitted model predictions." loading="lazy">
+              <span class="image-open">OPEN ORIGINAL ↗</span>
+            </a>
+            <figcaption><b>Figures 10–11.</b> Confidence against evidence, accuracy, and reaction time; fitted predictions and psychometric functions.</figcaption>
+          </figure>
+        </div>
+      </div>
+
+      <div class="figure-project">
+        <div class="figure-project-heading">
+          <div><span class="figure-index">PROJECT 03</span><h3>Animacy, imagery, and memory</h3></div>
+          <a href="https://github.com/MahdiMoocavi/Meta-Analysis-Animacy" target="_blank" rel="noreferrer">View meta-analysis ↗</a>
+        </div>
+        <div class="figure-grid">
+          <figure class="figure-card">
+            <a class="figure-image" href="https://raw.githubusercontent.com/MahdiMoocavi/Meta-Analysis-Animacy/main/103701.png" target="_blank" rel="noreferrer" aria-label="Open original Figure 1 image">
+              <img src="https://raw.githubusercontent.com/MahdiMoocavi/Meta-Analysis-Animacy/main/103701.png" alt="Original Figure 1 showing distributions of animate and inanimate recall frequency and interaction ratings." loading="lazy">
+              <span class="image-open">OPEN ORIGINAL ↗</span>
+            </a>
+            <figcaption><b>Figure 1.</b> Distributions of animate and inanimate stimulus recall frequency and interaction ratings.</figcaption>
+          </figure>
+          <figure class="figure-card">
+            <a class="figure-image" href="https://raw.githubusercontent.com/MahdiMoocavi/Meta-Analysis-Animacy/main/103647.png" target="_blank" rel="noreferrer" aria-label="Open original Figures 5 and 6 image">
+              <img src="https://raw.githubusercontent.com/MahdiMoocavi/Meta-Analysis-Animacy/main/103647.png" alt="Original image containing forest and funnel plots and association-effect plots across studies." loading="lazy">
+              <span class="image-open">OPEN ORIGINAL ↗</span>
+            </a>
+            <figcaption><b>Figures 5–6.</b> Forest and funnel plots and association-effect plots across the 65 replication groups.</figcaption>
+          </figure>
         </div>
       </div>
     </section>
 
-    <section class="contact section" id="contact">
-      <p class="eyebrow">CONTACT</p>
-      <h2>Interested in research<br>or data-focused work?</h2>
-      <p>For research collaborations, analytical projects, or professional opportunities, connect through GitHub.</p>
-      <a class="contact-email" href="https://github.com/MahdiMoocavi" target="_blank" rel="noreferrer">github.com/MahdiMoocavi ↗</a>
+    <section class="about section-shell" id="about">
+      <div class="about-heading">
+        <p class="eyebrow"><span class="eyebrow-dot"></span> ABOUT / METHODS</p>
+        <h2>Psychology, approached quantitatively.</h2>
+      </div>
+      <div class="about-content">
+        <p class="about-lead">My background is in psychology, with a focus on quantitative research methods and advanced statistics. I hold an MSc in Psychology: Theory & Research from KU Leuven.</p>
+        <p>I am interested in computational psychometrics: how psychological constructs can be represented, tested, and modelled using behavioural observations and language. My projects move between experiment design, statistical inference, data processing, and computational representations of questionnaire items.</p>
+        <div class="method-columns">
+          <div><span>01 / DESIGN</span><b>Behavioural research</b><small>Experimental design · PsychoPy · cognitive psychology</small></div>
+          <div><span>02 / INFERENCE</span><b>Statistical modelling</b><small>Bayesian methods · GLMs · mixed-effects models · SEM</small></div>
+          <div><span>03 / COMPUTATION</span><b>Data and language</b><small>Python · R · NLP · sentence embeddings · data pipelines</small></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section-shell" id="contact">
+      <div>
+        <p class="eyebrow"><span class="eyebrow-dot"></span> CONTACT</p>
+        <h2>Research-led. Method-driven.</h2>
+        <p>For research collaborations, quantitative analysis, or data-focused opportunities.</p>
+      </div>
+      <a class="contact-link" href="https://github.com/MahdiMoocavi" target="_blank" rel="noreferrer">Connect on GitHub <span>↗</span></a>
     </section>
   </main>
 
-  <footer>
-    <span>© 2026 Mahdi Moosavi</span>
-    <span>Quantitative research · Computational methods</span>
-    <a href="https://github.com/MahdiMoocavi" target="_blank" rel="noreferrer">GitHub ↗</a>
+  <footer class="site-footer">
+    <a class="identity" href="#top"><span class="identity-mark">MM</span><span class="identity-name">MAHDI MOOSAVI</span></a>
+    <span>QUANTITATIVE PSYCHOLOGY / COMPUTATIONAL METHODS</span>
+    <a href="#top">BACK TO TOP ↑</a>
   </footer>
 </body>
 </html>
