@@ -99,7 +99,7 @@ a:focus-visible{outline:2px solid var(--rust);outline-offset:4px}
 .project-main>p:not(.project-kicker){color:#536e87;font-size:12px;line-height:1.8;max-width:760px;margin:0}
 .project-tags{display:flex;flex-wrap:wrap;gap:7px;margin-top:16px}
 .project-tags span{font:8px var(--mono);color:#536e87;border:1px solid #c9d9e7;padding:4px 7px}
-.lead-copy .project-tags span{color:#e0edf8;border-color:rgba(255,255,255,.35)}
+.lead-copy .project-tags span{color:#fff;border-color:rgba(255,255,255,.58)}
 .project-outlinks{display:flex;flex-direction:column;align-items:flex-start;gap:10px;padding-top:24px}
 .project-outlinks a,.figure-project-heading>a{font-size:10px;color:var(--blue);border-bottom:1px solid #b4c9dc;padding-bottom:3px}
 .project-outlinks a:hover,.figure-project-heading>a:hover{color:var(--rust);border-color:var(--rust)}
