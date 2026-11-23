@@ -102,38 +102,43 @@
     <section class="research-lead section-shell" id="research">
       <div class="lead-heading">
         <div>
-          <p class="eyebrow"><span class="eyebrow-dot"></span> FEATURED DATA WORKFLOW / 01</p>
-          <h2>A Python workflow for preparing research datasets</h2>
+          <p class="eyebrow"><span class="eyebrow-dot"></span> FEATURED NLP PROJECT / 01</p>
+          <h2>Can geometric corrections improve sentence-embedding representations of psychometric items?</h2>
         </div>
-        <span class="lead-side-label">PYTHON DATA PROCESSING</span>
+        <span class="lead-side-label">NLP · SENTENCE EMBEDDINGS · REPRESENTATION LEARNING</span>
       </div>
       <div class="lead-grid">
         <div class="lead-copy">
-          <p class="lead-deck">Excel preprocessing, feature construction, and audit trails</p>
-          <p>This Python pipeline transforms study-specific Excel exports into analysis-ready workbooks. It handles participant filtering, variable harmonisation, derived measures, and open-text preprocessing, while preserving an audit trail so suggested text corrections can be reviewed rather than silently accepted.</p>
-          <p>The workflow is designed for a defined replication-data schema rather than as a general-purpose ingestion tool. Its filtering thresholds, recoding rules, and scoring transformations are documented so the assumptions behind each processed dataset remain inspectable.</p>
+          <p class="lead-deck">Geometric correction of sentence embeddings for personality-item structure</p>
+          <p>This project uses Sentence Transformers and the pretrained <code>all-mpnet-base-v2</code> model to encode 300 IPIP-NEO-300 questionnaire statements as 768-dimensional vectors. It examines whether shared linguistic features in item wording distort semantic representations and cosine similarity, particularly for pairs of reverse-keyed items within the same facet.</p>
+          <p>The Python workflow compares an uncorrected baseline with seven geometric corrections: global mean-centering, principal-component removal (drop-top / all-but-the-top), regularised ZCA and partial whitening, domain- and facet-informed centering, and nested pair-scope corrections. The content-aware conditions use the instrument's known domain and facet metadata.</p>
+          <p>Evaluation uses 696 predefined within-facet reverse-keyed pairs and 654 same-keyed control pairs. The repository reports 90.5% sign-accuracy for nested full-rescale against a theoretical negative-sign expectation. This is an embedding-only result, not evidence that corrected similarities reproduce empirical item-response correlations.</p>
           <div class="lead-actions">
-            <a class="primary-link dark-link" href="https://github.com/MahdiMoocavi/Replication-Processing-Pipeline" target="_blank" rel="noreferrer">Open pipeline repository <span>↗</span></a>
-            <a class="secondary-link" href="https://github.com/MahdiMoocavi/Replication-Processing-Pipeline#workflow" target="_blank" rel="noreferrer">Read workflow documentation ↗</a>
+            <a class="primary-link dark-link" href="https://github.com/MahdiMoocavi/Geometric-Embedding-Correction" target="_blank" rel="noreferrer">Explore NLP project repository <span>↗</span></a>
+            <a class="secondary-link" href="https://github.com/MahdiMoocavi/Geometric-Embedding-Correction/blob/main/geometric-correction-methodology.md" target="_blank" rel="noreferrer">Read methodology ↗</a>
+          </div>
+          <div class="project-tags">
+            <span>Python</span><span>Sentence Transformers</span><span>NLP</span><span>Embeddings</span><span>Cosine similarity</span><span>PCA</span><span>ZCA / whitening</span>
           </div>
         </div>
         <div class="lead-method">
-          <p class="method-label">PROCESSING WORKFLOW</p>
+          <p class="method-label">NLP / EMBEDDING WORKFLOW</p>
           <ol class="method-flow">
-            <li><span>01</span><div><b>Read Excel exports</b><small>Study-specific group workbooks · XLSX input</small></div></li>
-            <li><span>02</span><div><b>Filter participants</b><small>Completion, progress, and age-related criteria</small></div></li>
-            <li><span>03</span><div><b>Harmonise and derive measures</b><small>Variable recoding, response summaries, and scores</small></div></li>
-            <li class="future-step"><span>04</span><div><b>Retain an audit trail</b><small>Original, flagged, and corrected open-text fields</small></div></li>
+            <li><span>01</span><div><b>Encode questionnaire text</b><small>Sentence Transformers · all-mpnet-base-v2 · 300 items</small></div></li>
+            <li><span>02</span><div><b>Build semantic representations</b><small>768-dimensional vectors · cosine-similarity matrix</small></div></li>
+            <li><span>03</span><div><b>Correct embedding geometry</b><small>Mean-centering · PCA · drop-top · ZCA · facet-aware methods</small></div></li>
+            <li><span>04</span><div><b>Evaluate pairwise structure</b><small>696 reverse-keyed targets · 654 same-keyed controls</small></div></li>
+            <li class="future-step"><span>05</span><div><b>Validate against responses</b><small>Empirical item correlations · next research stage</small></div></li>
           </ol>
         </div>
       </div>
       <div class="lead-metrics">
-        <div class="metric"><strong>5</strong><span>CORE OPERATIONS</span></div>
-        <div class="metric"><strong>XLSX</strong><span>EXCEL INPUT & OUTPUT</span></div>
-        <div class="metric"><strong>PYTHON</strong><span>PANDAS · NUMPY · OPENPYXL</span></div>
-        <div class="metric result-metric"><strong>AUDIT</strong><span>OPEN-TEXT CORRECTIONS</span></div>
+        <div class="metric"><strong>300</strong><span>QUESTIONNAIRE ITEMS</span></div>
+        <div class="metric"><strong>768</strong><span>EMBEDDING DIMENSIONS</span></div>
+        <div class="metric"><strong>8</strong><span>BASELINE + CORRECTION CONDITIONS</span></div>
+        <div class="metric result-metric"><strong>90.5%</strong><span>REPORTED SIGN-ACCURACY*</span></div>
       </div>
-      <p class="metric-note">The pipeline retains original, flagged, and corrected text in separate audit columns. Dictionary-based spelling suggestions are not ground truth; flagged entries should be reviewed before corrected values are used in substantive analyses.</p>
+      <p class="metric-note">*Reported for the nested full-rescale condition on the predefined 696 within-facet reverse-keyed pairs, using a theoretical expected negative sign. The 654 same-keyed pairs provide an artifact control. This does not establish agreement with empirical response correlations; response-based validation, sensitivity analyses, and positive-semidefiniteness checks remain outstanding.</p>
     </section>
 
     <section class="projects section-shell" id="projects">
