@@ -1,23 +1,24 @@
-# Mahdi Moosavi — Professional Portfolio
+# Mahdi Moosavi — Research Portfolio
 
 Live site: https://mahdimoocavi.github.io
 
-A responsive, static portfolio presenting practical evidence of Python/R data processing, statistical analysis, and quantitative problem-solving.
+A responsive editorial portfolio built with plain HTML and CSS. No JavaScript framework or build step is required.
 
 ## Positioning
 
-The site is designed for Data Analyst, Research Analyst, and Quantitative Analyst opportunities. It foregrounds demonstrable work in data preparation, variable harmonisation, statistical modelling, and communicating analytical results. Psychology is presented as domain expertise rather than the primary professional label.
+The site foregrounds quantitative psychology and computational psychometrics, with the geometric correction of sentence embeddings as the current research project. Other work is organised around perceptual decision-making, animacy and memory, and applied statistical modelling.
 
 ## Site files
 
-- `index.html` — portfolio content and project links
-- `styles.css` — responsive visual system
+- `index.html` — portfolio narrative, research summaries, links, and figure gallery
+- `styles.css` — responsive layout and visual system
 - `assets/mark.svg` — favicon
 
-## Accuracy notes
+## Figure assets
 
-The site lists tools and methods represented in the linked repositories. It does not claim professional SQL, BI dashboard, production ML, or production software engineering experience. The featured Python pipeline is study-specific and its README documents its schema assumptions and limitations.
+The figure gallery embeds the original project PNGs directly from their repositories. The files are not duplicated or modified on this site.
 
-## Publishing
+- Decision-making: [Sequential-Generalized-Linear-Model](https://github.com/MahdiMoocavi/Sequential-Generalized-Linear-Model)
+- Animacy meta-analysis: [Meta-Analysis-Animacy](https://github.com/MahdiMoocavi/Meta-Analysis-Animacy)
 
-GitHub Pages deploys the site from the `main` branch root. No build step or JavaScript framework is required.
+The schematic in the hero is a conceptual illustration of semantic representations, not an empirical plot.
