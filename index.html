@@ -3,12 +3,12 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Mahdi Moosavi — data analysis, statistical modelling, reproducible Python and R workflows, and quantitative research.">
+  <meta name="description" content="Mahdi Moosavi — quantitative analysis, statistical modelling, NLP, and Python/R data workflows.">
   <meta name="theme-color" content="#f2f0e8">
   <link rel="canonical" href="https://mahdimoocavi.github.io/">
   <meta property="og:type" content="website">
   <meta property="og:title" content="Mahdi Moosavi — Data Analysis & Quantitative Methods">
-  <meta property="og:description" content="Data analysis, statistical modelling, Python and R workflows, and evidence synthesis.">
+  <meta property="og:description" content="Quantitative analysis using regression, Bayesian and multilevel modelling, NLP, and reproducible Python/R workflows.">
   <meta property="og:url" content="https://mahdimoocavi.github.io/">
   <title>Mahdi Moosavi — Data Analysis & Quantitative Methods</title>
   <link rel="icon" href="assets/mark.svg" type="image/svg+xml">
@@ -24,7 +24,7 @@
       <span class="identity-name">MAHDI MOOSAVI</span>
     </a>
     <nav aria-label="Main navigation">
-      <a href="#research">Workflow</a>
+      <a href="#research">Flagship</a>
       <a href="#projects">Projects</a>
       <a href="#figures">Figures</a>
       <a href="#about">About</a>
@@ -35,21 +35,21 @@
   <main id="top">
     <section class="hero">
       <div class="hero-main">
-        <p class="eyebrow"><span class="eyebrow-dot"></span> DATA ANALYSIS / STATISTICAL MODELLING</p>
-        <h1>Making complex data <em>useful.</em></h1>
-        <p class="hero-intro">I use Python and R to prepare, analyse, and interpret complex datasets. My work combines data processing, statistical modelling, experimental data, and evidence synthesis, with an emphasis on transparent and reproducible analytical workflows.</p>
+        <p class="eyebrow"><span class="eyebrow-dot"></span> QUANTITATIVE ANALYSIS / STATISTICAL MODELLING / NLP</p>
+        <h1>Rigorous analysis. <em>Reliable insight.</em></h1>
+        <p class="hero-intro">I turn complex datasets into reliable, decision-relevant insights. Using Python and R, I combine regression, Bayesian and multilevel modelling, statistical inference, and NLP with careful data preparation and model evaluation. My focus is methodological: choosing appropriate methods, checking assumptions, quantifying uncertainty, and explaining what the results do—and do not—support.</p>
         <div class="hero-links">
           <a class="primary-link" href="#research">Explore selected work <span>↓</span></a>
           <a class="secondary-link" href="https://github.com/MahdiMoocavi" target="_blank" rel="noreferrer">View GitHub profile ↗</a>
         </div>
         <div class="hero-index">
           <span>DATA & ANALYTICS PORTFOLIO</span>
-          <span>PYTHON · R · STATISTICAL MODELLING</span>
+          <span>PYTHON · R · STATISTICS · NLP</span>
         </div>
       </div>
 
       <aside class="hero-visual" aria-label="Illustrative representation of patterns in analytical data">
-        <div class="visual-topline"><span>FIG. 00 / CONCEPT</span><span>DATA INPUT → ANALYTICAL PATTERNS</span></div>
+        <div class="visual-topline"><span>FIG. 00 / CONCEPT</span><span>DATA → MODELS → INSIGHT</span></div>
         <svg viewBox="0 0 620 470" role="img" aria-labelledby="space-title space-desc">
           <title id="space-title">Schematic map of observations and data patterns</title>
           <desc id="space-desc">An abstract illustration of grouped observations and relationships. This is a visual motif, not an empirical output.</desc>
@@ -90,12 +90,12 @@
           <circle cx="298" cy="184" r="9" class="focus-node"/><circle cx="352" cy="137" r="9" class="focus-node"/>
           <path d="M298 184L352 137" class="pair-line"/>
           <rect x="76" y="85" width="112" height="30" rx="2" class="plot-tag"/>
-          <text x="89" y="104" class="plot-tag-text">DATA INPUT</text>
+          <text x="89" y="104" class="plot-tag-text">DATA</text>
           <rect x="412" y="57" width="149" height="30" rx="2" class="plot-tag"/>
-          <text x="426" y="76" class="plot-tag-text">DATA ANALYSIS</text>
+          <text x="426" y="76" class="plot-tag-text">MODELLING</text>
           <text x="74" y="410" class="plot-note">ILLUSTRATIVE ONLY — NOT EMPIRICAL DATA</text>
         </svg>
-        <div class="visual-bottom"><span>DATA</span><span>ANALYSIS</span><span>INFERENCE</span></div>
+        <div class="visual-bottom"><span>PREPARE</span><span>MODEL</span><span>INTERPRET</span></div>
       </aside>
     </section>
 
@@ -103,18 +103,18 @@
       <div class="lead-heading">
         <div>
           <p class="eyebrow"><span class="eyebrow-dot"></span> FEATURED NLP PROJECT / 01</p>
-          <h2>Can geometric corrections improve sentence-embedding representations of psychometric items?</h2>
+          <h2>How can geometric methods improve transformer-based sentence embeddings?</h2>
         </div>
-        <span class="lead-side-label">NLP · SENTENCE EMBEDDINGS · REPRESENTATION LEARNING</span>
+        <span class="lead-side-label">NLP · TRANSFORMER EMBEDDINGS · REPRESENTATION ANALYSIS</span>
       </div>
       <div class="lead-grid">
         <div class="lead-copy">
-          <p class="lead-deck">Geometric correction of sentence embeddings for personality-item structure</p>
-          <p>This project uses Sentence Transformers and the pretrained <code>all-mpnet-base-v2</code> model to encode 300 IPIP-NEO-300 questionnaire statements as 768-dimensional vectors. It examines whether shared linguistic features in item wording distort semantic representations and cosine similarity, particularly for pairs of reverse-keyed items within the same facet.</p>
-          <p>The Python workflow compares an uncorrected baseline with seven geometric corrections: global mean-centering, principal-component removal (drop-top / all-but-the-top), regularised ZCA and partial whitening, domain- and facet-informed centering, and nested pair-scope corrections. The content-aware conditions use the instrument's known domain and facet metadata.</p>
-          <p>Evaluation uses 696 predefined within-facet reverse-keyed pairs and 654 same-keyed control pairs. The repository reports 90.5% sign-accuracy for nested full-rescale against a theoretical negative-sign expectation. This is an embedding-only result, not evidence that corrected similarities reproduce empirical item-response correlations.</p>
+          <p class="lead-deck">Sentence embedding analysis and geometric correction</p>
+          <p>This NLP pipeline uses Sentence Transformers and the pretrained <code>all-mpnet-base-v2</code> model to encode 300 IPIP-NEO-300 statements as 768-dimensional vectors. It builds pairwise cosine-similarity matrices and examines how shared linguistic features affect semantic relationships between items, particularly reverse-keyed pairs within the same facet.</p>
+          <p>The Python implementation compares eight conditions: raw embeddings and seven corrections, including global mean-centering, PCA-based component removal (drop-top / all-but-the-top), regularised ZCA and partial whitening, domain- and facet-informed centering, and nested pair-scope corrections. This separates geometry-only methods from corrections that use known domain and facet metadata.</p>
+          <p>Evaluation covers 696 predefined within-facet reverse-keyed pairs and 654 same-keyed controls. The best reported condition, nested full-rescale, reaches 90.5% sign-accuracy against a theoretical negative-sign expectation. This is an embedding-space result—not evidence that corrected similarities reproduce empirical item-response correlations. Response-based validation remains outstanding.</p>
           <div class="lead-actions">
-            <a class="primary-link dark-link" href="https://github.com/MahdiMoocavi/Geometric-Embedding-Correction" target="_blank" rel="noreferrer">Explore NLP project repository <span>↗</span></a>
+            <a class="primary-link dark-link" href="https://github.com/MahdiMoocavi/Geometric-Embedding-Correction" target="_blank" rel="noreferrer">View embedding pipeline on GitHub <span>↗</span></a>
             <a class="secondary-link" href="https://github.com/MahdiMoocavi/Geometric-Embedding-Correction/blob/main/geometric-correction-methodology.md" target="_blank" rel="noreferrer">Read methodology ↗</a>
           </div>
           <div class="project-tags">
@@ -122,40 +122,40 @@
           </div>
         </div>
         <div class="lead-method">
-          <p class="method-label">NLP / EMBEDDING WORKFLOW</p>
+          <p class="method-label">NLP PIPELINE / EVALUATION</p>
           <ol class="method-flow">
-            <li><span>01</span><div><b>Encode questionnaire text</b><small>Sentence Transformers · all-mpnet-base-v2 · 300 items</small></div></li>
-            <li><span>02</span><div><b>Build semantic representations</b><small>768-dimensional vectors · cosine-similarity matrix</small></div></li>
-            <li><span>03</span><div><b>Correct embedding geometry</b><small>Mean-centering · PCA · drop-top · ZCA · facet-aware methods</small></div></li>
-            <li><span>04</span><div><b>Evaluate pairwise structure</b><small>696 reverse-keyed targets · 654 same-keyed controls</small></div></li>
-            <li class="future-step"><span>05</span><div><b>Validate against responses</b><small>Empirical item correlations · next research stage</small></div></li>
+            <li><span>01</span><div><b>Encode text</b><small>Sentence Transformers · all-mpnet-base-v2</small></div></li>
+            <li><span>02</span><div><b>Construct vector representations</b><small>300 items · 768 dimensions · cosine similarity</small></div></li>
+            <li><span>03</span><div><b>Transform embedding geometry</b><small>Mean-centering · PCA removal · ZCA / partial whitening</small></div></li>
+            <li><span>04</span><div><b>Compare correction strategies</b><small>Geometry-only vs domain/facet-informed methods</small></div></li>
+            <li class="future-step"><span>05</span><div><b>Validate against response data</b><small>Empirical item correlations · next stage</small></div></li>
           </ol>
         </div>
       </div>
       <div class="lead-metrics">
         <div class="metric"><strong>300</strong><span>QUESTIONNAIRE ITEMS</span></div>
         <div class="metric"><strong>768</strong><span>EMBEDDING DIMENSIONS</span></div>
-        <div class="metric"><strong>8</strong><span>BASELINE + CORRECTION CONDITIONS</span></div>
+        <div class="metric"><strong>8</strong><span>BASELINE + CORRECTION METHODS</span></div>
         <div class="metric result-metric"><strong>90.5%</strong><span>REPORTED SIGN-ACCURACY*</span></div>
       </div>
-      <p class="metric-note">*Reported for the nested full-rescale condition on the predefined 696 within-facet reverse-keyed pairs, using a theoretical expected negative sign. The 654 same-keyed pairs provide an artifact control. This does not establish agreement with empirical response correlations; response-based validation, sensitivity analyses, and positive-semidefiniteness checks remain outstanding.</p>
+      <p class="metric-note">*The 90.5% figure is reported for nested full-rescale on the predefined 696 reverse-keyed pairs, against a theoretical expected sign. The 654 same-keyed pairs act as an artifact control. This does not establish agreement with empirical responses or guarantee a positive-semidefinite similarity matrix. Response-based validation and sensitivity checks remain open.</p>
     </section>
 
     <section class="projects section-shell" id="projects">
       <div class="section-title-row">
         <div>
-          <p class="eyebrow"><span class="eyebrow-dot"></span> SELECTED ANALYTICAL WORK / 02—05</p>
-          <h2>Data preparation, modelling, and statistical analysis.</h2>
+          <p class="eyebrow"><span class="eyebrow-dot"></span> STATISTICAL MODELLING & ANALYTICS / 02—05</p>
+          <h2>From data preparation to statistical inference.</h2>
         </div>
-        <p class="section-intro">A selection of projects demonstrating analytical work across behavioural datasets, data preprocessing, multi-study synthesis, and statistical modelling.</p>
+        <p class="section-intro">Selected work showing how I prepare complex datasets, build statistical models, estimate effects across multiple datasets, and interpret results with appropriate uncertainty.</p>
       </div>
 
       <article class="project-row">
         <div class="project-number">02</div>
         <div class="project-main">
-          <p class="project-kicker">EXPERIMENTAL DATA / STATISTICAL MODELLING</p>
-          <h3>Experimental data and decision modelling</h3>
-          <p>A Python/PsychoPy experiment generates trial-level behavioural data. The companion R workflow prepares and analyses those data, examining confidence, response accuracy, and sequential choice behaviour with linear and logistic mixed-effects models.</p>
+          <p class="project-kicker">EXPERIMENT DESIGN / DECISION MODELLING</p>
+          <h3>Sequential decision modelling and confidence</h3>
+          <p>A PsychoPy experiment records trial-level choices, accuracy, response times, and confidence. The companion R workflow combines 72 participant-level files, constructs within-participant lagged predictors, and fits linear and logistic mixed-effects models. It also generates model-based confidence estimates for trials without an observed rating.</p>
           <div class="project-tags"><span>Python / PsychoPy</span><span>R / lme4</span><span>Experimental design</span><span>Mixed-effects models</span></div>
         </div>
         <div class="project-outlinks">
@@ -167,13 +167,13 @@
       <article class="project-row">
         <div class="project-number">03</div>
         <div class="project-main">
-          <p class="project-kicker">DATA PROCESSING / EVIDENCE SYNTHESIS</p>
-          <h3>Multi-study data processing and meta-analysis.</h3>
-          <p>A Python data-processing workflow cleans and harmonises the English-language replication exports, applies documented open-text corrections, and preserves an audit trail. Separately, the wider meta-analysis draws on 65 English- and Dutch-language study groups to examine animacy-related recall and interaction ratings.</p>
-          <div class="project-tags"><span>R / metafor</span><span>Python / pandas</span><span>Meta-analysis</span><span>Data preprocessing</span></div>
+          <p class="project-kicker">DATA PIPELINE / META-ANALYSIS</p>
+          <h3>A reproducible pipeline for multi-study datasets.</h3>
+          <p>A Python pipeline ingests study-specific Excel exports, applies participant filters, harmonises variables, constructs derived measures, and records reviewable text-normalisation suggestions in an audit trail. A separate R workflow combines results from 65 English- and Dutch-language groups using paired effect sizes, equal- and random-effects models, and Fisher's z-transformed correlations.</p>
+          <div class="project-tags"><span>R / metafor</span><span>Python / pandas</span><span>Meta-analysis</span><span>Feature construction</span></div>
         </div>
         <div class="project-outlinks">
-          <a href="https://github.com/MahdiMoocavi/Meta-Analysis-Animacy" target="_blank" rel="noreferrer">Meta-analysis ↗</a>
+          <a href="https://github.com/MahdiMoocavi/Meta-Analysis-Animacy" target="_blank" rel="noreferrer">Pooled estimates ↗</a>
           <a href="https://github.com/MahdiMoocavi/Replication-Processing-Pipeline" target="_blank" rel="noreferrer">Data pipeline ↗</a>
         </div>
       </article>
@@ -181,9 +181,9 @@
       <article class="project-row">
         <div class="project-number">04</div>
         <div class="project-main">
-          <p class="project-kicker">STATISTICAL MODELLING / MODEL EVALUATION</p>
-          <h3>From observed responses to latent-variable models.</h3>
-          <p>An applied R analysis using confirmatory factor analysis, structural equation modelling, mediation, bootstrap estimation, and hold-out model comparisons. The project demonstrates how observed survey data can be used to estimate and evaluate latent-variable models.</p>
+          <p class="project-kicker">STRUCTURAL MODELLING / INFERENCE</p>
+          <h3>Testing latent structures and indirect pathways</h3>
+          <p>An R workflow that prepares survey measures, checks distributions and multicollinearity, fits confirmatory factor and structural equation models, estimates indirect effects, and uses bootstrap parameter estimates. A hold-out split compares model fit; it is not a predictive-accuracy benchmark.</p>
           <div class="project-tags"><span>R</span><span>lavaan</span><span>CFA / SEM</span><span>Mediation</span></div>
         </div>
         <div class="project-outlinks">
@@ -194,9 +194,9 @@
       <article class="project-row">
         <div class="project-number">05</div>
         <div class="project-main">
-          <p class="project-kicker">ADDITIONAL DATA & ANALYSIS PROJECTS</p>
-          <h3>Focused analytical and experimental implementations.</h3>
-          <p>Additional work includes a factorial ANOVA of PHQ-9 scores by living conditions and residential area, and a PsychoPy numerical-magnitude task with counterbalanced left–right presentation and trial-level response-time output.</p>
+          <p class="project-kicker">APPLIED STATISTICS / EXPERIMENTAL DATA</p>
+          <h3>Applied statistical testing and experimental measurement</h3>
+          <p>Additional work includes a factorial ANOVA of PHQ-9 scores by living condition and area, with effect-size estimates, post-hoc comparisons, assumption checks, and non-parametric tests. A PsychoPy numerical-magnitude task records trial-level accuracy and response times using counterbalanced number-pair positions.</p>
           <div class="project-tags"><span>R / ANOVA</span><span>Python / PsychoPy</span><span>Reaction time</span></div>
         </div>
         <div class="project-outlinks">
@@ -209,15 +209,15 @@
     <section class="figures section-shell" id="figures">
       <div class="section-title-row">
         <div>
-          <p class="eyebrow"><span class="eyebrow-dot"></span> SELECTED ANALYSIS OUTPUTS</p>
-          <h2>Visualising results and analytical patterns.</h2>
+          <p class="eyebrow"><span class="eyebrow-dot"></span> MODEL OUTPUTS / META-ANALYTIC RESULTS</p>
+          <h2>Visualising model estimates and pooled effects.</h2>
         </div>
-        <p class="section-intro">Selected outputs from behavioural analyses and multi-study synthesis. Open an image to inspect the original figure at full resolution.</p>
+        <p class="section-intro">Selected plots from mixed-effects analyses and pooled meta-analytic estimates. Open an image to inspect the original figure at full resolution.</p>
       </div>
 
       <div class="figure-project">
         <div class="figure-project-heading">
-          <div><span class="figure-index">PROJECT 02</span><h3>Decision-making and confidence</h3></div>
+          <div><span class="figure-index">PROJECT 02</span><h3>Decision models and confidence</h3></div>
           <a href="https://github.com/MahdiMoocavi/Sequential-Generalized-Linear-Model" target="_blank" rel="noreferrer">View analysis ↗</a>
         </div>
         <div class="figure-grid">
@@ -240,7 +240,7 @@
 
       <div class="figure-project">
         <div class="figure-project-heading">
-          <div><span class="figure-index">PROJECT 03</span><h3>Animacy, imagery, and memory</h3></div>
+          <div><span class="figure-index">PROJECT 03</span><h3>Meta-analytic effects across study groups</h3></div>
           <a href="https://github.com/MahdiMoocavi/Meta-Analysis-Animacy" target="_blank" rel="noreferrer">View meta-analysis ↗</a>
         </div>
         <div class="figure-grid">
@@ -264,16 +264,16 @@
 
     <section class="about section-shell" id="about">
       <div class="about-heading">
-        <p class="eyebrow"><span class="eyebrow-dot"></span> PROFILE / TECHNICAL APPROACH</p>
-        <h2>Data analysis, grounded in quantitative methods.</h2>
+        <p class="eyebrow"><span class="eyebrow-dot"></span> PROFILE / QUANTITATIVE METHODS</p>
+        <h2>A quantitative foundation, applied to complex data.</h2>
       </div>
       <div class="about-content">
-        <p class="about-lead">I hold an MSc in Psychology: Theory & Research from KU Leuven, where I focused on quantitative research methods and advanced statistics. My training combines programming, data analysis, experimental design, and statistical modelling.</p>
-        <p>My project work demonstrates a transferable analytical toolkit: structuring and cleaning data, building reproducible processing workflows, selecting appropriate statistical models, evaluating results, and communicating limitations. The examples come from psychology, but the underlying skills apply to a broad range of research and analytical datasets.</p>
+        <p class="about-lead">I hold an MSc in Psychology: Theory & Research from KU Leuven, with a focus on quantitative methods and advanced statistics. My background combines programming, experimental design, statistical inference, and computational modelling.</p>
+        <p>My strongest contribution is the statistical layer of analytics: translating a question into a measurable target, selecting a defensible model, checking assumptions and sensitivity, quantifying uncertainty, and communicating what the evidence supports. I work primarily in Python and R, with hands-on experience in data preparation, regression, Bayesian and multilevel modelling, meta-analysis, latent-variable methods, and NLP-based representation analysis.</p>
         <div class="method-columns">
-          <div><span>01 / DATA PREPARATION</span><b>Data processing</b><small>Python · pandas · data cleaning · reproducible workflows</small></div>
-          <div><span>02 / STATISTICAL ANALYSIS</span><b>Statistical modelling</b><small>GLMs · mixed-effects models · meta-analysis · SEM · model evaluation</small></div>
-          <div><span>03 / PROGRAMMING</span><b>Data and computation</b><small>Python · R · data pipelines · statistical computing</small></div>
+          <div><span>01 / DATA PREPARATION & QUALITY</span><b>Data workflows</b><small>Python · pandas · NumPy · Excel ingestion · harmonisation · derived features · audit trails</small></div>
+          <div><span>02 / STATISTICAL INFERENCE & MODELLING</span><b>Regression and probabilistic models</b><small>GLMs · mixed-effects · Bayesian DDM · SEM · effect sizes · meta-analysis</small></div>
+          <div><span>03 / NLP & COMPUTATIONAL METHODS</span><b>Semantic representation analysis</b><small>Sentence Transformers · embeddings · cosine similarity · PCA · ZCA / whitening · text processing</small></div>
         </div>
       </div>
     </section>
@@ -281,8 +281,8 @@
     <section class="contact section-shell" id="contact">
       <div>
         <p class="eyebrow"><span class="eyebrow-dot"></span> CONTACT</p>
-        <h2>Data-focused. Method-driven.</h2>
-        <p>Open to Data Analyst, Research Analyst, and Quantitative Analyst opportunities.</p>
+        <h2>Rigorous methods. Practical insight.</h2>
+        <p>Open to Quantitative Analyst, Statistical Analyst, and Data Analyst roles focused on advanced analytics, experimentation, and decision support.</p>
       </div>
       <a class="contact-link" href="https://github.com/MahdiMoocavi" target="_blank" rel="noreferrer">Connect on GitHub <span>↗</span></a>
     </section>
@@ -290,7 +290,7 @@
 
   <footer class="site-footer">
     <a class="identity" href="#top"><span class="identity-mark">MM</span><span class="identity-name">MAHDI MOOSAVI</span></a>
-    <span>DATA ANALYSIS / STATISTICAL MODELLING</span>
+    <span>QUANTITATIVE ANALYSIS / STATISTICAL MODELLING / NLP</span>
     <a href="#top">BACK TO TOP ↑</a>
   </footer>
 </body>
