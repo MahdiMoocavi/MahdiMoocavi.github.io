@@ -1,16 +1,16 @@
-# Mahdi Moosavi — Research Portfolio
+# Mahdi Moosavi — Quantitative Analysis Portfolio
 
 Live site: https://mahdimoocavi.github.io
 
-A responsive editorial portfolio built with plain HTML and CSS. No JavaScript framework or build step is required.
+A responsive portfolio built with plain HTML and CSS. It presents quantitative analysis, statistical modelling, NLP, and reproducible Python/R workflows.
 
 ## Positioning
 
-The site foregrounds quantitative psychology and computational psychometrics, with the geometric correction of sentence embeddings as the current research project. Other work is organised around perceptual decision-making, animacy and memory, and applied statistical modelling.
+The portfolio positions Mahdi as a quantitative analyst with a strong statistical-modelling foundation and an applied NLP focus. The flagship project analyses transformer-based sentence embeddings using geometric correction methods. Other projects demonstrate sequential modelling, reproducible data preparation, meta-analysis, and latent-variable modelling.
 
 ## Site files
 
-- `index.html` — portfolio narrative, research summaries, links, and figure gallery
+- `index.html` — portfolio narrative, technical project summaries, links, and selected outputs
 - `styles.css` — responsive layout and visual system
 - `assets/mark.svg` — favicon
 
@@ -21,4 +21,4 @@ The figure gallery embeds the original project PNGs directly from their reposito
 - Decision-making: [Sequential-Generalized-Linear-Model](https://github.com/MahdiMoocavi/Sequential-Generalized-Linear-Model)
 - Animacy meta-analysis: [Meta-Analysis-Animacy](https://github.com/MahdiMoocavi/Meta-Analysis-Animacy)
 
-The schematic in the hero is a conceptual illustration of semantic representations, not an empirical plot.
+The hero schematic is an illustrative data visual, not an empirical output.
