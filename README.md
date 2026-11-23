@@ -1,24 +1,24 @@
 # Mahdi Moosavi — Research Portfolio
 
-A responsive personal portfolio built with plain HTML and CSS. No JavaScript framework or build step is required.
+Live site: https://mahdimoocavi.github.io
 
-## Live website
+A responsive editorial portfolio built with plain HTML and CSS. No JavaScript framework or build step is required.
 
-https://mahdimoocavi.github.io
+## Positioning
 
-The site is published through GitHub Pages from the root of the `main` branch.
+The site foregrounds quantitative psychology and computational psychometrics, with the geometric correction of sentence embeddings as the current research project. Other work is organised around perceptual decision-making, animacy and memory, and applied statistical modelling.
 
 ## Site files
 
-- `index.html` — portfolio content, project summaries, and selected research figures
-- `styles.css` — responsive layout and visual styles
+- `index.html` — portfolio narrative, research summaries, links, and figure gallery
+- `styles.css` — responsive layout and visual system
 - `assets/mark.svg` — favicon
 
-## Project figure assets
+## Figure assets
 
-The website embeds the original PNGs directly from their respective project repositories. The files remain in those repositories and are not modified or duplicated here:
+The figure gallery embeds the original project PNGs directly from their repositories. The files are not duplicated or modified on this site.
 
-- Decision-making figures: [Sequential-Generalized-Linear-Model](https://github.com/MahdiMoocavi/Sequential-Generalized-Linear-Model)
-- Animacy meta-analysis figures: [Meta-Analysis-Animacy](https://github.com/MahdiMoocavi/Meta-Analysis-Animacy)
+- Decision-making: [Sequential-Generalized-Linear-Model](https://github.com/MahdiMoocavi/Sequential-Generalized-Linear-Model)
+- Animacy meta-analysis: [Meta-Analysis-Animacy](https://github.com/MahdiMoocavi/Meta-Analysis-Animacy)
 
-The abstract SVG diagrams in project cards are conceptual illustrations; the images in the selected-figures section are the uploaded project figures.
+The schematic in the hero is a conceptual illustration of semantic representations, not an empirical plot.
