@@ -2,11 +2,11 @@
 
 Live site: https://mahdimoocavi.github.io
 
-A responsive portfolio built with plain HTML and CSS. It presents quantitative analysis, statistical modelling, NLP, and reproducible Python/R workflows.
+A responsive portfolio built with plain HTML and CSS. It presents research across NLP, statistics, data science, and analytics, with reproducible Python/R workflows.
 
-## Positioning
+## Research and technical focus
 
-The portfolio positions Mahdi as a quantitative analyst with a strong statistical-modelling foundation and an applied NLP focus. The flagship project analyses transformer-based sentence embeddings using geometric correction methods. Other projects demonstrate sequential modelling, reproducible data preparation, meta-analysis, and latent-variable modelling.
+The portfolio presents Mahdi’s work across NLP, statistical modelling, data science, and analytics. The flagship project analyses transformer-based sentence embeddings using geometric correction methods. Other projects demonstrate sequential modelling, reproducible data preparation, meta-analysis, and latent-variable modelling.
 
 ## Site files
 
