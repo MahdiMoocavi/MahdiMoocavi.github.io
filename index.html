@@ -24,7 +24,7 @@
       <span class="identity-name">MAHDI MOOSAVI</span>
     </a>
     <nav aria-label="Main navigation">
-      <a href="#research">Flagship</a>
+      <a href="#research">Research</a>
       <a href="#projects">Projects</a>
       <a href="#figures">Figures</a>
       <a href="#about">About</a>
@@ -60,7 +60,7 @@
       </div>
       <div class="lead-grid">
         <div class="lead-copy">
-          <p class="lead-deck">Geometric corrections for sentence embedding</p>
+          <p class="lead-deck">Geometric corrections for vector spaces</p>
           <p>This NLP pipeline uses Sentence Transformers and the pretrained <code>all-mpnet-base-v2</code> model to encode 300 IPIP-NEO-300 statements as 768-dimensional vectors. It builds pairwise cosine-similarity matrices and examines how shared linguistic features affect semantic relationships between items, particularly reverse-keyed pairs within the same facet.</p>
           <p>The Python implementation compares eight conditions: raw embeddings and seven corrections, including global mean-centering, PCA-based component removal (drop-top / all-but-the-top), regularised ZCA and partial whitening, domain- and facet-informed centering, and nested pair-scope corrections. This separates geometry-only methods from corrections that use known domain and facet metadata.</p>
           <p>Evaluation covers 696 predefined within-facet reverse-keyed pairs and 654 same-keyed controls. The best reported condition, nested full-rescale, reaches 90.5% sign-accuracy against a theoretical negative-sign expectation. This is an embedding-space result—not evidence that corrected similarities reproduce empirical item-response correlations. Response-based validation remains outstanding.</p>
