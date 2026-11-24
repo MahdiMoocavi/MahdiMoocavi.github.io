@@ -61,7 +61,7 @@ a:focus-visible{outline:2px solid var(--rust);outline-offset:4px}
 .lead-copy{max-width:none;min-width:0}
 .lead-copy>p:not(.lead-deck){max-width:none}
 .lead-grid .lead-method{border-left:1px solid rgba(255,255,255,.23);padding-left:30px;min-width:0}
-.lead-analysis{display:block;max-width:600px;margin:0 auto;padding:0 0 37px}
+.lead-analysis{display:block;max-width:300px;margin:0 auto;padding:0 0 37px}
 .lead-deck{font:italic 22px var(--serif);color:var(--ice);margin:0 0 13px}
 .lead-copy>p:not(.lead-deck){font-size:13px;line-height:1.9;color:#e0edf8;margin:0 0 15px}
 .lead-actions{display:flex;align-items:center;flex-wrap:wrap;gap:22px;margin-top:26px}
